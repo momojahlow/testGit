@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=Hello, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AJI TKHADAM</title>
+</head>
+
+<body>
+    <div class="container mx-auto">
+        <nav role="navigation" class="flex justify-between items-center h-auto bg-gray-50 opacity-80% bg relative">
+            <a :to="{ name: 'Home' }" id="logo" class="font-sans pl-6 text-2xl font-bold">
+                <span>AJI</span><span class="bg-yellow-500 py-2 px-1 text-yellow-50">TKHADAM</span>
+            </a>
+            <div class="px-4 cursor-pointer md:hidden" id="bars">
+                A propos
+            </div>
+            <div class="hidden md:flex md:block" id="menu">
+                <router-link :to="{ name: 'Home' }" class="p-4 flex">
+                    Accueil
+                </router-link>
+                <router-link :to="{ name: 'Home' }" class="p-4 flex">
+                    Accueil
+                </router-link>
+                <router-link :to="{ name: 'Home' }" class="p-4 flex">
+                    Accueil
+                </router-link>
+                <router-link :to="{ name: 'Home' }" class="p-4 flex">
+                    Accueil
+                </router-link>
+                <router-link :to="{ name: 'Home' }" class="p-4 flex">
+                    Accueil
+                </router-link>
+            </div>
+        </nav>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
